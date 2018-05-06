@@ -79,4 +79,4 @@ n stable
 
 ## Documents
 
-[aos-docs](https://github.com/AschPlatform/aos-docs)
+[aos-docs](https://github.com/aoschain/aos-docs)
