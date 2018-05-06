@@ -1,13 +1,13 @@
-[![Build Status](https://travis-ci.org/AschPlatform/aos-cli.png?branch=master)](https://travis-ci.org/AschPlatform/aos-cli)
-[![Author](https://img.shields.io/badge/author-@AschPlatform-blue.svg?style=flat)](http://github.com/AschPlatform)
-[![License](https://img.shields.io/badge/license-MIT-yellow.svg?style=flat)](http://AschPlatform.mit-license.org)
+[![Build Status](https://travis-ci.org/aoschain/aos-cli.png?branch=master)](https://travis-ci.org/aoschain/aos-cli)
+[![Author](https://img.shields.io/badge/author-@aoschain-blue.svg?style=flat)](http://github.com/aoschain)
+[![License](https://img.shields.io/badge/license-MIT-yellow.svg?style=flat)](http://aoschain.mit-license.org)
 [![NpmDownload Status](http://img.shields.io/npm/dm/aos-cli.svg)](https://www.npmjs.org/package/aos-cli)
 [![NPM Version](https://img.shields.io/npm/v/aos-cli.svg?style=flat)](https://www.npmjs.org/package/aos-cli)
 - - -
 
-# Asch Client
+# aos Client
 
-A command line interface for bootstrapping and managing [Asch](https://github.com/AschPlatform) blockchain apps.
+A command line interface for bootstrapping and managing [aos](https://github.com/aoschain) blockchain apps.
 
 ## Installation
 

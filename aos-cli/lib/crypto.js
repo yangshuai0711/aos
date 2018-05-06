@@ -3,7 +3,7 @@ var crypto = require('crypto-browserify');
 var bignum = require('browserify-bignum');
 var Mnemonic = require('bitcore-mnemonic');
 var nacl = nacl_factory.instantiate();
-var AschJS = require('asch-js')
+var AschJS = require('aos-js')
 
 var randomString = function (max) {
 	var text = "";
