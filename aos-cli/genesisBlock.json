@@ -1,0 +1,402 @@
+{
+  "version": 0,
+  "totalAmount": 10000000000000000,
+  "totalFee": 0,
+  "reward": 0,
+  "payloadHash": "f52a0f000c780ddc1ff57b35b8ec375338b7d74e8bc234637fd23127cb94ca2f",
+  "timestamp": 0,
+  "numberOfTransactions": 23,
+  "payloadLength": 4325,
+  "previousBlock": null,
+  "generatorPublicKey": "b9ec1389b312f6a11f809c422f3ad4b6b6ad94eca124add68c143ad993dc456e",
+  "transactions": [
+    {
+      "type": 0,
+      "amount": 10000000000000000,
+      "fee": 0,
+      "timestamp": 0,
+      "recipientId": "A45QUaABT3UXidovBRDwtkn3Rvoag3nusc",
+      "senderId": "ACp2K6EstPwB2QeBDLoeZ54Dr3cXr2GVY2",
+      "senderPublicKey": "b9ec1389b312f6a11f809c422f3ad4b6b6ad94eca124add68c143ad993dc456e",
+      "signature": "e01f325b23d702bdab43436992f982af94a2cd1ce5a65a81e95282c6b245a69546a8769fce6a9ebe11c3221764595f7d60bb6a15c65af8c36f7585ed8906120f",
+      "id": "4dc59f2edb549038286b87b8055e728da0f60be707f7117a82d186d6b88027af"
+    },
+    {
+      "type": 2,
+      "amount": 0,
+      "fee": 0,
+      "timestamp": 0,
+      "recipientId": null,
+      "senderId": "AHvhVoBJmEpRzM559RffTDx3bM82NhDN1j",
+      "senderPublicKey": "0e579f34b5bd848995ddbd7c2379ec581f49ede66fc5d1288c11f9bf598d50ae",
+      "asset": {
+        "delegate": {
+          "username": "AOSworker-18"
+        }
+      },
+      "signature": "dd0ff39340165383ef9700e26dccb159167daf24e6b3e69b5c24293bdbb8af38eb45078b7ea02347d1997592fa7282144460c3b7594045825982826e5ed48f00",
+      "id": "00cfb86f3adafd5a9caf6984e7065db3922d3fccccfafbc1a7e9ae72684a8984"
+    },
+    {
+      "type": 2,
+      "amount": 0,
+      "fee": 0,
+      "timestamp": 0,
+      "recipientId": null,
+      "senderId": "APKRmgUhuCSkb64V62x56mbWhSx6zbPbEd",
+      "senderPublicKey": "eb37a4a266c86efcea71e958b9f73aac7fcdea852d89b468ac5366776d9c9f89",
+      "asset": {
+        "delegate": {
+          "username": "AOSworker-13"
+        }
+      },
+      "signature": "9e27099d105305a47f0d66e467761cc43b3a3cb2b4c368c3c6da28c533e1a3a18b6e9dc191953928446fdeac993268e0baf4c7a94e69663ecc68e4e3eec3f905",
+      "id": "071dc3304ac847771d63b11a3cadfe3e46785cabf49c9847a60dec599d6e219c"
+    },
+    {
+      "type": 2,
+      "amount": 0,
+      "fee": 0,
+      "timestamp": 0,
+      "recipientId": null,
+      "senderId": "A9bD8qXaAcLcRVgQGmv5KTeKxDab97Vzoz",
+      "senderPublicKey": "58ee57213f47e516c574ef325295861b52858139cd03dff4fc06fd5507c49d55",
+      "asset": {
+        "delegate": {
+          "username": "AOSworker-5"
+        }
+      },
+      "signature": "a330b7ae6a6e345af764f731d94a9bfbe9afba0f44872cacf3fd0c09db18104fd3b17d60fc8b0736220a5af0b2552189dce870339feb339e0d2cea074c61b002",
+      "id": "1382b4ec2288974173c78a825021ed2f19c69ac369aa1b2edc37252c2e8dff32"
+    },
+    {
+      "type": 2,
+      "amount": 0,
+      "fee": 0,
+      "timestamp": 0,
+      "recipientId": null,
+      "senderId": "AEukfDnZ2UPy2GJ8PhKJuMveiURY8QsLoi",
+      "senderPublicKey": "a918e9e737383640aeb0c96a9897af6bc2931b31e2e302f6180f846821ed7e8d",
+      "asset": {
+        "delegate": {
+          "username": "AOSworker-1"
+        }
+      },
+      "signature": "68b3b2abfc69c1273b96100bc7bf75e0ad8762e8151ed2332b1ec2a9f8bff22cd0c35fdaf641579f1bc8080282e253052ef72a46d624382c20a0adc9a6da4a04",
+      "id": "22377c872edd49e399c33ef50c03ab868d1de559a40747310a37c508c68a7f08"
+    },
+    {
+      "type": 2,
+      "amount": 0,
+      "fee": 0,
+      "timestamp": 0,
+      "recipientId": null,
+      "senderId": "AFbh5KCqXrCfRp8zvGZujk37sdNTNPeFnw",
+      "senderPublicKey": "cf3eedee072183000033d67a5171098b49b41f022283a7ac470441cfcbe8ee97",
+      "asset": {
+        "delegate": {
+          "username": "AOSworker-12"
+        }
+      },
+      "signature": "bd05ba9e954ac8bd860f09f0d1bb5979bf9a7677d84f54196516b97ac68c927b47d1282af2fd6da027a82c349bfb47897d97014540f57b7fbc97ef27afe13a07",
+      "id": "2da73e84c4f649c50714cb9d86d065275c5af9acde7c2b1a9f3d173ecc10e6b5"
+    },
+    {
+      "type": 2,
+      "amount": 0,
+      "fee": 0,
+      "timestamp": 0,
+      "recipientId": null,
+      "senderId": "A7Kj3D8Kxi5GvyAyMdtiYw8Nq7B1so9JNi",
+      "senderPublicKey": "3bf2f921901c869f3cf6f293167802b71735d8e13f386b7ee0f12e787d7d0dba",
+      "asset": {
+        "delegate": {
+          "username": "AOSworker-10"
+        }
+      },
+      "signature": "fa3a9982a0503fd5c0ea8314ecf17874cf4b42153fb14d142fa87db7cdaa663ede25ca35634999dda2969dd78456a693ec64eb575e85345769baaac66c79cd07",
+      "id": "37d954d2f55cdc4ba7b3fdc5b1e0d27f49f62f1fde308e67e431119777d5180f"
+    },
+    {
+      "type": 2,
+      "amount": 0,
+      "fee": 0,
+      "timestamp": 0,
+      "recipientId": null,
+      "senderId": "AHH7oJYZZP7zUShwLP8ptXWiw4vW3t9QPw",
+      "senderPublicKey": "5162ecf3a7af8141c23564e5b12a21c79fe5ba44fa03d047da1a70b170a469ab",
+      "asset": {
+        "delegate": {
+          "username": "AOSworker-20"
+        }
+      },
+      "signature": "3607c376ccb3f7a1fe4179e4e3f50fb1760c127a8e1f111e6aa8f99bd1bbb58193d825761994880be0974d4f009503412c00de2830ddda944932825bbf803403",
+      "id": "4c07d386f6ef243d1d6e29a372de3c3d6d76806b1fad54d24309ff957c7d858b"
+    },
+    {
+      "type": 2,
+      "amount": 0,
+      "fee": 0,
+      "timestamp": 0,
+      "recipientId": null,
+      "senderId": "A2CpDzmparbjwV1TtrFhc81UAjgFQuskjY",
+      "senderPublicKey": "c64660846ad573c025cc470339711f7464e4aff0a410265f7e1a014f7f6beafe",
+      "asset": {
+        "delegate": {
+          "username": "AOSworker-11"
+        }
+      },
+      "signature": "a76b3bc20435f1200d3fd78b80546ff3da5283aefc48494107d81ac9e0cfbf62e10f2ca9a08939ebd4fd2378abebcb2db199786ea50493beb4dd52873395b002",
+      "id": "55615d35084ef1e18e26dfd155d021bce49b08e3ca8ac490884f3ed716e5db95"
+    },
+    {
+      "type": 2,
+      "amount": 0,
+      "fee": 0,
+      "timestamp": 0,
+      "recipientId": null,
+      "senderId": "A51Gvsjy54kWr9o6YkcSw2JAbKfWbS35m6",
+      "senderPublicKey": "db70b0b277f2163bb20700ee56345a5b43c9a9356cac54c9787cf540743feaf4",
+      "asset": {
+        "delegate": {
+          "username": "AOSworker-3"
+        }
+      },
+      "signature": "607c58b7bdf8c77c8ed1d920bf6b4669d97855fc81bdb3a0c8398209204fdc3ab057b74c73f961edda4ed6146c01ff1f329b9f29a90cb32caecc3014b72eb30d",
+      "id": "72bf112b4cbf6c2da1ec7963f184f7202d6c6772ee2ebcf52a15052fb7a9c402"
+    },
+    {
+      "type": 2,
+      "amount": 0,
+      "fee": 0,
+      "timestamp": 0,
+      "recipientId": null,
+      "senderId": "AHr7bU3GFnbUtDpZ6CUDDrvLQ48A2DbiQA",
+      "senderPublicKey": "302117d433fbc5bd6026e4706199fe11d2c349b263eb9f524a4e9a2197c188aa",
+      "asset": {
+        "delegate": {
+          "username": "AOSworker-4"
+        }
+      },
+      "signature": "6be8705f0cd51cf109743f49ed06ea94cadebf1efe534dab689a6907cd9128fae5fa0a98644bc1e251855004cbfab7c619c8bfdb87047dba2d59dacad5cc3005",
+      "id": "7c28bf75aee84df2c7c8a5787a10709b9f3f09b44609d83f6667f92b2958e011"
+    },
+    {
+      "type": 2,
+      "amount": 0,
+      "fee": 0,
+      "timestamp": 0,
+      "recipientId": null,
+      "senderId": "ADm5da3ypEUqw9D5fvEuAptfCsX18VZGng",
+      "senderPublicKey": "bbb9dd356987b374f6dcc30a4914f87233bb5715ab9b4c419473c9f070e1b94b",
+      "asset": {
+        "delegate": {
+          "username": "AOSworker-2"
+        }
+      },
+      "signature": "552f4385061b84c8947f1556da4f0c9ed492e2fcb3e15632f470ecedafa131567c6a83652c0dc3c22f97d933daa88771cafd820fc6d3d0836f8d504dd7489303",
+      "id": "896427a3a87a7c83684285cef88f77b3f892a2f6cdc278d7c255c70f4084fe0c"
+    },
+    {
+      "type": 2,
+      "amount": 0,
+      "fee": 0,
+      "timestamp": 0,
+      "recipientId": null,
+      "senderId": "ACVVeGuQ7U3vBFczgZhShHKZ96bUYQbE1H",
+      "senderPublicKey": "d0985f9ca66fb65aba1f13846fd15e6fd0495d137c36febf746d362f32624fd5",
+      "asset": {
+        "delegate": {
+          "username": "AOSworker-17"
+        }
+      },
+      "signature": "5033ac1a1b1a2fbf6199c3ab815203404d049168c2d075fb91a522ba63d18d71dc9a2eb2d2e5eacf069b5ce1ec1c609d9c0e45b4e4a981c5b85392d113e8420e",
+      "id": "9b8dcce831c0b0978a1d2e00cee46bcb42fad7afc7f0df862e0ba8005f5d0c74"
+    },
+    {
+      "type": 2,
+      "amount": 0,
+      "fee": 0,
+      "timestamp": 0,
+      "recipientId": null,
+      "senderId": "A5XcSiUPj7bFcWWS9NCnhzNTvz5kgPKjGR",
+      "senderPublicKey": "dcb176af9f596b1e6461e84d71400fd9c74d18a767f7acf53483c5511a84d320",
+      "asset": {
+        "delegate": {
+          "username": "AOSworker-19"
+        }
+      },
+      "signature": "d169c6772077512e50eb4443e3e6c81e722fd2a008dc1a2260ec941eb7d3113ae0dacacafea9a9cfbe130ec8002e8991bd7fb497fe3953527e8274406f43c904",
+      "id": "9f9e0b4fed6ca178fd7a37d21697a9f6bb96000501da8419409522db4ecb4f8d"
+    },
+    {
+      "type": 2,
+      "amount": 0,
+      "fee": 0,
+      "timestamp": 0,
+      "recipientId": null,
+      "senderId": "ADKzQZmpVFuyaVW8Y1Qq27rcY3xzdiH4nt",
+      "senderPublicKey": "14e2f6dabaac1379caf27300d4c32c44638b8b9c0ba1e9055a16366328e4d262",
+      "asset": {
+        "delegate": {
+          "username": "AOSworker-7"
+        }
+      },
+      "signature": "8eaab254f298b78bfadf440e12ad06d7184f83a6401b533a2d0d5906e4d51e720e3761c36833e84eb02ee9ba67669f4af1f47ec613dc8436a597c33a1d153c06",
+      "id": "ab5f6520a2a056dc70b91c8e36c886d3bfa74cc769f42125d3fc9f7a0d2e00a7"
+    },
+    {
+      "type": 2,
+      "amount": 0,
+      "fee": 0,
+      "timestamp": 0,
+      "recipientId": null,
+      "senderId": "A8J4RrX59MwDeWG6ag41tmtpmmQ7DpdSFY",
+      "senderPublicKey": "d8e7536612d1b38ac7b4d867e02393710b135fbfbf40c80a49063769313a19f6",
+      "asset": {
+        "delegate": {
+          "username": "AOSworker-15"
+        }
+      },
+      "signature": "9020e59623dc6694e6e8783250bb3ac845f655f52c1c438d847943ea31d44dfadcb2393b973ed886f6d857f69912725f26ce2265ec081ec929dfb6843d64340f",
+      "id": "b62f06be1955fa5ea379cf418c6b4b5afaa77cdf5133218a82c19128b37a656d"
+    },
+    {
+      "type": 2,
+      "amount": 0,
+      "fee": 0,
+      "timestamp": 0,
+      "recipientId": null,
+      "senderId": "A7D1fBpzyvx6bXuaDbQcHM8pE7i5Qos1Do",
+      "senderPublicKey": "8f947edba8e4bb4d9e60f235b34c5b2030041cea82f96c3dc962de5bbd7acee1",
+      "asset": {
+        "delegate": {
+          "username": "AOSworker-16"
+        }
+      },
+      "signature": "ea330098ddb56d00eeef451e60dba7a1c6f454ba64d4815a973ef5bf338a26c12cf5c5ecff6f3071905912eb2318dd3ff095e083d24d7452677cbe4f36246708",
+      "id": "c070f85272322c9971d18a8b74ad2c231450c7d3e44d4349b88a3c33aa738ab4"
+    },
+    {
+      "type": 2,
+      "amount": 0,
+      "fee": 0,
+      "timestamp": 0,
+      "recipientId": null,
+      "senderId": "A8gcGyz4AzT8yekpbE8g5JkG77CwWWmjfS",
+      "senderPublicKey": "22b72de43ed433da7015cd6f11389a566767fd2e04c2c9cfecf8868997124ec3",
+      "asset": {
+        "delegate": {
+          "username": "AOSworker-9"
+        }
+      },
+      "signature": "ddc8570969ee4933ce2d062963429b2d07ee33918b2811e330f69281a4326d3671498dbb2dece1241a8e89a338cdca639a7ebb9afb20f5552d6971714c468100",
+      "id": "d77e174fb4435950d2f293fd5c69a4e8b45f7ae2b4f03ad7b37e7753778b1a96"
+    },
+    {
+      "type": 2,
+      "amount": 0,
+      "fee": 0,
+      "timestamp": 0,
+      "recipientId": null,
+      "senderId": "AbUe3hw6wmabbh44ed74Z5qp6hjTHk2S1",
+      "senderPublicKey": "12edde8b9fe8c869dbc26e3b397573de53362e9f28e152a541fd157d561fe4c4",
+      "asset": {
+        "delegate": {
+          "username": "AOSworker-21"
+        }
+      },
+      "signature": "c415ce6f86a6e5f1974ad4eea7fdee3177847a6385e9b38bb416db2b4cc358b2694d9d1ac89c4365187a7eac4033955642d26f9ecf670ca88157d52b5f3a4106",
+      "id": "e96bc4f483c9a9c4497d69f52d8b807b180d84f5515836c1db66f409b8431322"
+    },
+    {
+      "type": 2,
+      "amount": 0,
+      "fee": 0,
+      "timestamp": 0,
+      "recipientId": null,
+      "senderId": "A68DKJTsMtru75rxnJvQ7hkQWRjoxXmCiN",
+      "senderPublicKey": "cd6363db5f99057bc5b0c455573ca51f3c10de09e8051e54856e150b9e88fb08",
+      "asset": {
+        "delegate": {
+          "username": "AOSworker-8"
+        }
+      },
+      "signature": "ddd1ce716fbeccb5a09c60ee070bc0f5b49d751b9d76b4e717f2c87f9dfa2eb648c1ce379ea507e7024a0445f76657afeb8ffb8d98d16c59ea52395cda5c5e00",
+      "id": "ee731add8153f417531c694f5b69eb7372011f8f731fb7007e3c4bc0c4c10800"
+    },
+    {
+      "type": 2,
+      "amount": 0,
+      "fee": 0,
+      "timestamp": 0,
+      "recipientId": null,
+      "senderId": "ALd8dPgerPqH9q2kcKeSUsZxZvxXZ2C1BQ",
+      "senderPublicKey": "50cc435ca752dc91308edb4e2e5d0adebcc4f2d73088bb4932d2e31beb52bef6",
+      "asset": {
+        "delegate": {
+          "username": "AOSworker-14"
+        }
+      },
+      "signature": "8f93f820c0433e0439941bf8a91cd0cd963a34d0ee10ce4ce441f0ec0d070fae44deab5d2a2fa4131c0f9947fd236e60ff3e4224849a2de5a4a8a97124dad407",
+      "id": "ee853868e65df7f7b0e8447824621d26eeef2313d48761abd695540b09ce6b4c"
+    },
+    {
+      "type": 2,
+      "amount": 0,
+      "fee": 0,
+      "timestamp": 0,
+      "recipientId": null,
+      "senderId": "AAjSYpeQh585pXBj9Erkjjpi7Yxmr1Wqpw",
+      "senderPublicKey": "d54c6f3c3477207826e942397aa1fbb4f7554a42ee7e921642df9a48df169828",
+      "asset": {
+        "delegate": {
+          "username": "AOSworker-6"
+        }
+      },
+      "signature": "21e85b47d35c2f2bee2f28b720f8991f234426433208e17e03cc179d25e7a6602658c8ede8748bed971446ad38ae1407b99067fd84a43d67fa696d44aef45105",
+      "id": "ff6f3b7dcfd641a8e59cbfb0a067780d9aa782d1390201222e1d4f7dc2f034b5"
+    },
+    {
+      "type": 3,
+      "amount": 0,
+      "fee": 0,
+      "timestamp": 0,
+      "recipientId": null,
+      "senderId": "A45QUaABT3UXidovBRDwtkn3Rvoag3nusc",
+      "senderPublicKey": "3b920a0e344fedbeef7e57e51ed16b497f05b1418cffebcd363debb5c0b70131",
+      "asset": {
+        "vote": {
+          "votes": [
+            "+a918e9e737383640aeb0c96a9897af6bc2931b31e2e302f6180f846821ed7e8d",
+            "+bbb9dd356987b374f6dcc30a4914f87233bb5715ab9b4c419473c9f070e1b94b",
+            "+db70b0b277f2163bb20700ee56345a5b43c9a9356cac54c9787cf540743feaf4",
+            "+302117d433fbc5bd6026e4706199fe11d2c349b263eb9f524a4e9a2197c188aa",
+            "+58ee57213f47e516c574ef325295861b52858139cd03dff4fc06fd5507c49d55",
+            "+d54c6f3c3477207826e942397aa1fbb4f7554a42ee7e921642df9a48df169828",
+            "+14e2f6dabaac1379caf27300d4c32c44638b8b9c0ba1e9055a16366328e4d262",
+            "+cd6363db5f99057bc5b0c455573ca51f3c10de09e8051e54856e150b9e88fb08",
+            "+22b72de43ed433da7015cd6f11389a566767fd2e04c2c9cfecf8868997124ec3",
+            "+3bf2f921901c869f3cf6f293167802b71735d8e13f386b7ee0f12e787d7d0dba",
+            "+c64660846ad573c025cc470339711f7464e4aff0a410265f7e1a014f7f6beafe",
+            "+cf3eedee072183000033d67a5171098b49b41f022283a7ac470441cfcbe8ee97",
+            "+eb37a4a266c86efcea71e958b9f73aac7fcdea852d89b468ac5366776d9c9f89",
+            "+50cc435ca752dc91308edb4e2e5d0adebcc4f2d73088bb4932d2e31beb52bef6",
+            "+d8e7536612d1b38ac7b4d867e02393710b135fbfbf40c80a49063769313a19f6",
+            "+8f947edba8e4bb4d9e60f235b34c5b2030041cea82f96c3dc962de5bbd7acee1",
+            "+d0985f9ca66fb65aba1f13846fd15e6fd0495d137c36febf746d362f32624fd5",
+            "+0e579f34b5bd848995ddbd7c2379ec581f49ede66fc5d1288c11f9bf598d50ae",
+            "+dcb176af9f596b1e6461e84d71400fd9c74d18a767f7acf53483c5511a84d320",
+            "+5162ecf3a7af8141c23564e5b12a21c79fe5ba44fa03d047da1a70b170a469ab",
+            "+12edde8b9fe8c869dbc26e3b397573de53362e9f28e152a541fd157d561fe4c4"
+          ]
+        }
+      },
+      "signature": "33f6a1804c3a95063666c87a115b1962cc68ce58a06e863ab3ff8deaf9b3d0992cc4080c7bef18a8320946669699a2372419cbeab75eaff1e430d7899b03830f",
+      "id": "47f8be953d80f79040cee14be7bcbc8c5ea2fcc5019efb43b1d5c584c914131b"
+    }
+  ],
+  "height": 1,
+  "blockSignature": "d7d8d15e71869ae5cf51a2f41f849106af6dc85ad7f8daced3c606d8222cde839e9f0ec2344988d68f6c900366e31552f1b1eb3e7ec7839f24ad9ae890dae807",
+  "id": "9dea78a497ddf6a1c1119212c7b849826fdd5e075c69e089856a50d142d60d19"
+}
