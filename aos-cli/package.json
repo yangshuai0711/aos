@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "keywords": [
-    "asch",
+    "aos",
     "dapps",
     "cli"
   ],
@@ -18,7 +18,7 @@
   "author": "Tian.Xie",
   "license": "MIT",
   "dependencies": {
-    "aos-js": "*",
+    "ati": "*",
     "async": "1.5.2",
     "bitcore-mnemonic": "1.0.1",
     "browserify-bignum": "1.3.0-2",
@@ -34,11 +34,11 @@
     "valid-url": "1.0.9"
   },
   "bugs": {
-    "url": "https://github.com/aoschain/aos/issues"
+    "url": "https://github.com/AosPlatform/aos-cli/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aoschain/aos.git"
+    "url": "https://github.com/AosPlatform/aos-cli.git"
   },
-  "homepage": "https://github.com/aoschain/aos"
+  "homepage": "https://github.com/AosPlatform/aos-cli"
 }

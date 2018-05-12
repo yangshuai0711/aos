@@ -1,13 +1,13 @@
-[![Build Status](https://travis-ci.org/aoschain/aos-cli.png?branch=master)](https://travis-ci.org/aoschain/aos-cli)
-[![Author](https://img.shields.io/badge/author-@aoschain-blue.svg?style=flat)](http://github.com/aoschain)
-[![License](https://img.shields.io/badge/license-MIT-yellow.svg?style=flat)](http://aoschain.mit-license.org)
+[![Build Status](https://travis-ci.org/AosPlatform/aos-cli.png?branch=master)](https://travis-ci.org/AosPlatform/aos-cli)
+[![Author](https://img.shields.io/badge/author-@AosPlatform-blue.svg?style=flat)](http://github.com/AosPlatform)
+[![License](https://img.shields.io/badge/license-MIT-yellow.svg?style=flat)](http://AosPlatform.mit-license.org)
 [![NpmDownload Status](http://img.shields.io/npm/dm/aos-cli.svg)](https://www.npmjs.org/package/aos-cli)
 [![NPM Version](https://img.shields.io/npm/v/aos-cli.svg?style=flat)](https://www.npmjs.org/package/aos-cli)
 - - -
 
-# aos Client
+# Aos Client
 
-A command line interface for bootstrapping and managing [aos](https://github.com/aoschain) blockchain apps.
+A command line interface for bootstrapping and managing [Aos](https://github.com/AosPlatform) blockchain apps.
 
 ## Installation
 
@@ -79,4 +79,4 @@ n stable
 
 ## Documents
 
-[aos-docs](https://github.com/aoschain/aos-docs)
+[aos-docs](https://github.com/AosPlatform/aos-docs)

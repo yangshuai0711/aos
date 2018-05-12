@@ -1,6 +1,6 @@
 var fs = require('fs');
 var crypto = require('crypto');
-var aschJS = require('aos-js');
+var aosJS = require('ati');
 var Api = require('../helpers/api.js');
 var blockHelper = require('../helpers/block.js');
 var cryptoLib = require('../lib/crypto.js');
@@ -193,7 +193,7 @@ function sendMoney(options) {
   // getApi().put('/api/transactions/', params, function (err, result) {
   //   console.log(err || result);
   // });
-  var trs = aschJS.transaction.createTransaction(
+  var trs = aosJS.transaction.createTransaction(
     options.to,
     Number(options.amount),
     options.message,
@@ -206,7 +206,7 @@ function sendMoney(options) {
 }
 
 function sendAsset(options) {
-  var trs = aschJS.uia.createTransfer(
+  var trs = aosJS.uia.createTransfer(
     options.currency,
     options.amount,
     options.to,
@@ -228,7 +228,7 @@ function registerDelegate(options) {
   // getApi().put('/api/delegates/', params, function (err, result) {
   //   console.log(err || result);
   // });
-  var trs = aschJS.delegate.createDelegate(
+  var trs = aosJS.delegate.createDelegate(
     options.username,
     options.secret,
     options.secondSecret
@@ -242,7 +242,7 @@ function vote(secret, publicKeys, op, secondSecret) {
   var votes = publicKeys.split(',').map(function (el) {
     return op + el;
   });
-  var trs = aschJS.vote.createVote(
+  var trs = aosJS.vote.createVote(
     votes,
     secret,
     secondSecret
@@ -292,7 +292,7 @@ function downvote(options) {
 }
 
 function setSecondSecret(options) {
-  var trs = aschJS.signature.createSignature(options.secret, options.secondSecret);
+  var trs = aosJS.signature.createSignature(options.secret, options.secondSecret);
   getApi().broadcastTransaction(trs, function (err, result) {
     console.log(err || result.transactionId)
   });
@@ -304,21 +304,21 @@ function registerDapp(options) {
     return;
   }
   var dapp = JSON.parse(fs.readFileSync(options.metafile, 'utf8'));
-  var trs = aschJS.dapp.createDApp(dapp, options.secret, options.secondSecret);
+  var trs = aosJS.dapp.createDApp(dapp, options.secret, options.secondSecret);
   getApi().broadcastTransaction(trs, function (err, result) {
     console.log(err || result.transactionId)
   });
 }
 
 function deposit(options) {
-  var trs = aschJS.transfer.createInTransfer(options.dapp, options.currency, options.amount, options.secret, options.secondSecret)
+  var trs = aosJS.transfer.createInTransfer(options.dapp, options.currency, options.amount, options.secret, options.secondSecret)
   getApi().broadcastTransaction(trs, function (err, result) {
     console.log(err || result.transactionId)
   });
 }
 
 function dappTransaction(options) {
-  var trs = aschJS.dapp.createInnerTransaction({
+  var trs = aosJS.dapp.createInnerTransaction({
     fee: options.fee,
     type: Number(options.type),
     args: options.args
@@ -329,7 +329,7 @@ function dappTransaction(options) {
 }
 
 function lock(options) {
-  var trs = aschJS.transaction.createLock(options.height, options.secret, options.secondSecret)
+  var trs = aosJS.transaction.createLock(options.height, options.secret, options.secondSecret)
   getApi().broadcastTransaction(trs, function (err, result) {
     console.log(err || result.transactionId)
   });
@@ -354,7 +354,7 @@ function getTransactionBytes(options) {
     console.log('Invalid transaction format')
     return
   }
-  console.log(aschJS.crypto.getBytes(trs, true, true).toString('hex'))
+  console.log(aosJS.crypto.getBytes(trs, true, true).toString('hex'))
 }
 
 function getTransactionId(options) {
@@ -364,7 +364,7 @@ function getTransactionId(options) {
     console.log('Invalid transaction format')
     return
   }
-  console.log(aschJS.crypto.getId(trs))
+  console.log(aosJS.crypto.getId(trs))
 }
 
 function getBlockPayloadHash(options) {
@@ -376,7 +376,7 @@ function getBlockPayloadHash(options) {
   }
   var payloadHash = crypto.createHash('sha256');
   for (let i = 0; i < block.transactions.length; ++i) {
-    payloadHash.update(aschJS.crypto.getBytes(block.transactions[i]))
+    payloadHash.update(aosJS.crypto.getBytes(block.transactions[i]))
   }
   console.log(payloadHash.digest().toString('hex'))
 }
@@ -403,7 +403,7 @@ function getBlockId(options) {
 }
 
 function verifyBytes(options) {
-  console.log(aschJS.crypto.verifyBytes(options.bytes, options.signature, options.publicKey))
+  console.log(aosJS.crypto.verifyBytes(options.bytes, options.signature, options.publicKey))
 }
 
 module.exports = function(program) {

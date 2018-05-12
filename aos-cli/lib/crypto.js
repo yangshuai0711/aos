@@ -3,7 +3,7 @@ var crypto = require('crypto-browserify');
 var bignum = require('browserify-bignum');
 var Mnemonic = require('bitcore-mnemonic');
 var nacl = nacl_factory.instantiate();
-var AschJS = require('aos-js')
+var AosJS = require('ati')
 
 var randomString = function (max) {
 	var text = "";
@@ -48,7 +48,7 @@ function isValidSecret(secret) {
 }
 
 function getAddress(publicKey) {
-	return AschJS.crypto.getAddress(publicKey)
+	return AosJS.crypto.getAddress(publicKey)
 }
 
 module.exports = {

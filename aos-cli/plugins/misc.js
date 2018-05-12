@@ -6,7 +6,7 @@ var blockHelper = require("../helpers/block.js");
 var cryptoLib = require("../lib/crypto.js");
 var dappHelper = require("../helpers/dapp.js");
 var Api = require('../helpers/api.js');
-var AschUtils = require('aos-js').utils;
+var AosUtils = require('ati').utils;
 
 var globalOptions;
 
@@ -159,8 +159,8 @@ function delegatestat() {
 						d.balance / 100000000,
 						b ? b.height : '',
 						b ? b.id : '',
-						AschUtils.format.fullTimestamp(b ? b.timestamp : ''),
-						AschUtils.format.timeAgo(b ? b.timestamp : ''));
+						AosUtils.format.fullTimestamp(b ? b.timestamp : ''),
+						AosUtils.format.timeAgo(b ? b.timestamp : ''));
 			}
 		});
 	});
